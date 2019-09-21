@@ -29,8 +29,8 @@ python "run_unet_gpu.py" -munet --train-folder="D:/Ricardo/Datasets/all_tra_file
 Run the script: generator_hdf5_pb_pbtxt.py
 
 Set:
-     - hdf5 path
-     - Destination path of .pb and .pbtxt files
+- hdf5 path
+- Destination path of .pb and .pbtxt files
 
 ### Instruções para executar a inferência do arquivo .pb
 
