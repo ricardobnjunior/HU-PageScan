@@ -4,10 +4,10 @@ This is an implementation of Halved U-net (HU-net) on Python 3, Keras and Tensor
 
 ### Edge detection Train:
 
-Architecture used: HU-net
-Input Image Dimensions: 512x512 (cinza - 1 channel)
-Dimensions Output Image: 512x512 (binarizada - 1 channel)
-Pre-trained model provided: pre_trained_model.hdf5
+* Architecture used: HU-net
+* Input Image Dimensions: 512x512 (cinza - 1 channel)
+* Dimensions Output Image: 512x512 (binarizada - 1 channel)
+* Pre-trained model provided: pre_trained_model.hdf5
 
 
 ### Instructions for performing the training:
