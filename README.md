@@ -1,6 +1,6 @@
 ## A Fully Convolutional Neural Network for Document Segmentation in Real-World Complex Backgrounds
 
-This is an implementation of Halved U-net (HU-net) on Python 3, Keras and Tensorflow. The training dataset is the Extended Smartdoc Dataset. The proposed model is based on U-net Architeture, which we halved the number of parameters.
+This is an implementation of Halved U-net (HU-net) on Python 3, Keras and Tensorflow. The training dataset is the Extended Smartdoc Dataset. The proposed model is based on U-net Architecture, which we halved the number of parameters.
 
 ### Edge detection Train:
 
@@ -19,7 +19,7 @@ python "run_unet_gpu.py" -munet --train-folder="D:/Ricardo/Datasets/all_tra_file
        --valid-steps="1" --no-aug --train-samples="18598" --valid-samples="6165" --lr="0.0001"
 ```
 - Set Amount of epochs;
-- Set location where new .hdf5 (trained model) will be saved
+- Set a location where new .hdf5 (trained model) will be saved
 - Define the location of results during training (output_refined)
 
 
@@ -32,11 +32,11 @@ Set:
 - hdf5 path
 - Destination path of .pb and .pbtxt files
 
-### Instruções para executar a inferência do arquivo .pb
+### Instructions for performing .pb file inference
 
 Run the script: inferenceTestPB.py
 Define:
-- Location where output will be saved
+- The location where the output will be saved
 - Location of the images to be inferred
 - Locating the .pb
 - Name of .pb
@@ -48,6 +48,6 @@ Define:
 
 ### Citation
 
-Use this bibtex to cite this repository:
+Use this BibTeX  to cite this repository:
 
-bibtex for cite
+BibTeX  for cite
