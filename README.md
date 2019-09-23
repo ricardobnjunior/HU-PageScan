@@ -1,10 +1,10 @@
 ## A Fully Convolutional Neural Network for Document Segmentation in Real-World Complex Backgrounds
 
-This is an implementation of Halved U-net (HU-net) on Python 3, Keras and Tensorflow. The training dataset is the Extended Smartdoc Dataset. The proposed model is based on U-net Architecture, which we halved the number of parameters.
+This is an implementation of HU-PageScan on Python 3, Keras and Tensorflow. The training dataset is the Extended Smartdoc Dataset. The proposed model is based on U-net Architecture, which we halved the number of parameters.
 
 ### Edge detection Train:
 
-* Architecture used: HU-net
+* Architecture used: HU-PageScan
 * Input Image Dimensions: 512x512 (cinza - 1 channel)
 * Dimensions Output Image: 512x512 (binarizada - 1 channel)
 * Pre-trained model provided: pre_trained_model.hdf5
