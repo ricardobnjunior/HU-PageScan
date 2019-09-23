@@ -1,4 +1,4 @@
-## A Fully Convolutional Neural Network for Document Segmentation in Real-World Complex Backgrounds
+## HU-PageScan: A Fully Convolutional Neural Network for Document Segmentation in Real-World Complex Backgrounds
 
 This is an implementation of HU-PageScan on Python 3, Keras and Tensorflow. The training dataset is the Extended Smartdoc Dataset. The proposed model is based on U-net Architecture, which we halved the number of parameters.
 
