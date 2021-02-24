@@ -14,8 +14,8 @@ This is an implementation of HU-PageScan on Python 3, Keras and Tensorflow. The 
 
 Enter the command below in cmd
 ```
-python "run_hupagescan.py" -munet --train-folder="D:/Ricardo/Datasets/all_tra_files" 
-       --validation-folder="D:/Ricardo/Datasets/vall_files" --gpu="1" --bs="4" --train-steps="1" 
+python "run_hupagescan.py" -munet --train-folder=train_folder/" 
+       --validation-folder="validation_folder" --gpu="1" --bs="4" --train-steps="1" 
        --valid-steps="1" --no-aug --train-samples="18598" --valid-samples="6165" --lr="0.0001"
 ```
 - Set Amount of epochs;
